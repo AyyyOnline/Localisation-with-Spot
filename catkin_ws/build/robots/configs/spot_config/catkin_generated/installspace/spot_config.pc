@@ -1,0 +1,8 @@
+prefix=/home/ayyyonline/Localisation-with-Spot/catkin_ws/install
+
+Name: spot_config
+Description: Description of spot_config
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
