@@ -1,0 +1,8 @@
+prefix=/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel
+
+Name: astro_config
+Description: Description of astro_config
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
