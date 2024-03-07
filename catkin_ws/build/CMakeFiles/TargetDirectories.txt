@@ -176,13 +176,6 @@
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/opendog_config/CMakeFiles/rebuild_cache.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/opendog_config/CMakeFiles/edit_cache.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/opendog_config/CMakeFiles/test.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/install/strip.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/install/local.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/install.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/list_install_components.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/rebuild_cache.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/edit_cache.dir
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/ros_robotics/CMakeFiles/test.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/spot_config/CMakeFiles/install/strip.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/spot_config/CMakeFiles/install/local.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/robots/configs/spot_config/CMakeFiles/install.dir
@@ -338,6 +331,13 @@
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_EStopState.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_Feedback.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/install/strip.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/install/local.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/install.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/list_install_components.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/rebuild_cache.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/edit_cache.dir
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_controller/CMakeFiles/test.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/champ/champ_base/CMakeFiles/install/strip.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/champ/champ_base/CMakeFiles/install/local.dir
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/champ/champ_base/CMakeFiles/test.dir

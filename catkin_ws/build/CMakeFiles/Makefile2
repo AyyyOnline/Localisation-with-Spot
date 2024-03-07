@@ -74,7 +74,6 @@ all: robots/configs/mini_cheetah_config/all
 all: robots/configs/mini_pupper_config/all
 all: robots/configs/open_quadruped_config/all
 all: robots/configs/opendog_config/all
-all: ros_robotics/all
 all: robots/configs/spot_config/all
 all: spot_ros/spot_description/all
 all: spot_ros/spot_driver/all
@@ -85,6 +84,7 @@ all: champ/champ_msgs/all
 all: robots/configs/stochlite_config/all
 all: champ/champ_gazebo/all
 all: spot_ros/spot_msgs/all
+all: spot_controller/all
 all: champ/champ_base/all
 all: yocs_velocity_smoother/all
 
@@ -112,7 +112,6 @@ preinstall: robots/configs/mini_cheetah_config/preinstall
 preinstall: robots/configs/mini_pupper_config/preinstall
 preinstall: robots/configs/open_quadruped_config/preinstall
 preinstall: robots/configs/opendog_config/preinstall
-preinstall: ros_robotics/preinstall
 preinstall: robots/configs/spot_config/preinstall
 preinstall: spot_ros/spot_description/preinstall
 preinstall: spot_ros/spot_driver/preinstall
@@ -123,6 +122,7 @@ preinstall: champ/champ_msgs/preinstall
 preinstall: robots/configs/stochlite_config/preinstall
 preinstall: champ/champ_gazebo/preinstall
 preinstall: spot_ros/spot_msgs/preinstall
+preinstall: spot_controller/preinstall
 preinstall: champ/champ_base/preinstall
 preinstall: yocs_velocity_smoother/preinstall
 
@@ -155,7 +155,6 @@ clean: robots/configs/mini_cheetah_config/clean
 clean: robots/configs/mini_pupper_config/clean
 clean: robots/configs/open_quadruped_config/clean
 clean: robots/configs/opendog_config/clean
-clean: ros_robotics/clean
 clean: robots/configs/spot_config/clean
 clean: spot_ros/spot_description/clean
 clean: spot_ros/spot_driver/clean
@@ -166,6 +165,7 @@ clean: champ/champ_msgs/clean
 clean: robots/configs/stochlite_config/clean
 clean: champ/champ_gazebo/clean
 clean: spot_ros/spot_msgs/clean
+clean: spot_controller/clean
 clean: champ/champ_base/clean
 clean: yocs_velocity_smoother/clean
 
@@ -789,22 +789,22 @@ robots/configs/stochlite_config/clean:
 .PHONY : robots/configs/stochlite_config/clean
 
 #=============================================================================
-# Directory level rules for directory ros_robotics
+# Directory level rules for directory spot_controller
 
 # Recursive "all" directory target.
-ros_robotics/all:
+spot_controller/all:
 
-.PHONY : ros_robotics/all
+.PHONY : spot_controller/all
 
 # Recursive "preinstall" directory target.
-ros_robotics/preinstall:
+spot_controller/preinstall:
 
-.PHONY : ros_robotics/preinstall
+.PHONY : spot_controller/preinstall
 
 # Recursive "clean" directory target.
-ros_robotics/clean:
+spot_controller/clean:
 
-.PHONY : ros_robotics/clean
+.PHONY : spot_controller/clean
 
 #=============================================================================
 # Directory level rules for directory spot_ros/spot_description

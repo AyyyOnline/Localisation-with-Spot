@@ -77,8 +77,8 @@ champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ayyyonline/Lo
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG champ_msgs/Imu"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/champ_msgs/msg
 

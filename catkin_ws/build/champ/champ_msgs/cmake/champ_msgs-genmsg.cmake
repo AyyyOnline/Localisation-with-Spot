@@ -29,7 +29,7 @@ add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg" "geometry_msgs/Quaternion:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg" "geometry_msgs/Vector3:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
@@ -83,7 +83,7 @@ _generate_msg_cpp(champ_msgs
 _generate_msg_cpp(champ_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
@@ -180,7 +180,7 @@ _generate_msg_eus(champ_msgs
 _generate_msg_eus(champ_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
@@ -277,7 +277,7 @@ _generate_msg_lisp(champ_msgs
 _generate_msg_lisp(champ_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
@@ -374,7 +374,7 @@ _generate_msg_nodejs(champ_msgs
 _generate_msg_nodejs(champ_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
@@ -471,7 +471,7 @@ _generate_msg_py(champ_msgs
 _generate_msg_py(champ_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
