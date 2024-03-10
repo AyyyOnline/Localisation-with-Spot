@@ -5,7 +5,7 @@ from geometry_msgs.msg import Twist
 """The following function will aim to instruct spot to move forwards
 def move_spot_forward():
     # initialise ROS node
-    rospy.init_node('spot_move_forward')
+    rospy.init_node('move_spot_forward')
 
     # set the desired walking speed in metres/second
     linear_x = 0.2
@@ -34,9 +34,31 @@ def move_spot_forward():
         rospy.logerr("Error detected: %s" % e)
 """
 
+def move_spot_forward():
+  # Initialize ROS node
+  rospy.init_node('move_spot_forward')
+
+  # Define publisher for velocity commands
+  vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+
+  # Set desired velocity (adjust values for desired movement)
+  linear_x = 0.5  # Forward speed (m/s)
+  angular_z = 0.0  # Rotational speed (rad/s)
+
+  # Create Twist message with desired velocities
+  twist_msg = Twist()
+  twist_msg.linear.x = linear_x
+  twist_msg.angular.z = angular_z
+
+  # Publish the velocity command
+  rate = rospy.Rate(10)  # Publish at 10 Hz
+  while not rospy.is_shutdown():
+    vel_pub.publish(twist_msg)
+    rate.sleep()
+
 if __name__ == '__main__':
-    rospy.init_node('spot_move_forward')
-    rospy.loginfo("Moving spot node has started")
+    #rospy.init_node('move_spot_forward')
+    #rospy.loginfo("Moving spot node has started")
 
     """
     Publish to the relevant topic, info gathered from rostop info /cmd_vel/smooth rosshow 
@@ -44,7 +66,8 @@ if __name__ == '__main__':
     queue_size is a buffer for unreliable networks when lots of messages are being sent but it
     is good to have regardless
     """
-    pub = rospy.Publisher("/cmd_vel/smooth", Twist, queue_size=10)      
+    '''
+    pub = rospy.Publisher("/cmd_vel", Twist, queue_size=10)      
     
     rate = rospy.Rate(2)
 
@@ -53,13 +76,13 @@ if __name__ == '__main__':
         msg = Twist()
         msg.linear.x = 10.0
         msg.angular.z = 0.0
-        msg.linear.y = 0.0
+        #msg.linear.y = 0.0
         pub.publish(msg)
         rate.sleep()
-
-    """
+    '''
+    
     try:
-        move_spot_forward
+        move_spot_forward()
     except rospy.ROSInterruptException:
         pass
-    """
+    

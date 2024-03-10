@@ -20,7 +20,7 @@ if __name__ == '__main__':
     rospy.loginfo("node is active")     # display info msg
     rospy.logwarn("Warning")            # display warning msg
     rospy.logerr("Error detected")      # display error msg
-    rate = rospy.Rate(5)        # setup a rate of speed for an object to loop
+    rate = rospy.Rate(5)                # setup a rate of speed for an object to loop
     rospy.sleep(0.5)        
 
     # loop to test rate
