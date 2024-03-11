@@ -145,7 +145,7 @@ alias ctrlspot='roslaunch champ_teleop teleop.launch'
 # Git
 alias gs='git status'
 alias glog='git log --graph --decorate --oneline' 		# this one is just pure terminal beauty
-alias gitpat='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'
+alias gitpat='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'
 alias gitssh='cat ~/.ssh/id_ed25519.pub'
 alias gitadd='git add .'						# adds all files ready for commit
 alias gitcom='git commit -m'						# push changes to repo
@@ -154,7 +154,7 @@ alias gitpushall='git push --all -u'					# push all changes to repo
 
 
 # bash shortcuts
-alias ls='ls -lah --color=auto'		# lists info
+alias ls='ls --color=auto'		# lists info
 alias cl='clear && srcbash'			# clears and sources terminal
 alias q='quit'					# quits
 alias gbash='gedit ~/.bashrc'			# edit bash file
