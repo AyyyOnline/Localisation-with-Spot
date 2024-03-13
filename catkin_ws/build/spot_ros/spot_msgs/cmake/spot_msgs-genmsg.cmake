@@ -19,7 +19,7 @@ add_custom_target(spot_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg" NAME_WE)
 add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg" "spot_msgs/BatteryState:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg" "std_msgs/Header:spot_msgs/BatteryState"
 )
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BehaviorFault.msg" NAME_WE)
@@ -39,7 +39,7 @@ add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg" NAME_WE)
 add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg" "spot_msgs/Lease:spot_msgs/LeaseResource:spot_msgs/LeaseOwner"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg" "spot_msgs/LeaseResource:spot_msgs/LeaseOwner:spot_msgs/Lease"
 )
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg" NAME_WE)
@@ -94,7 +94,7 @@ add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg" NAME_WE)
 add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg" "spot_msgs/Lease:spot_msgs/LeaseOwner"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg" "spot_msgs/LeaseOwner:spot_msgs/Lease"
 )
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/PowerState.msg" NAME_WE)
@@ -104,7 +104,7 @@ add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg" NAME_WE)
 add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg" "spot_msgs/SystemFault:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_msgs" "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg" "std_msgs/Header:spot_msgs/SystemFault"
 )
 
 #
@@ -116,7 +116,7 @@ add_custom_target(_spot_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_cpp(spot_msgs
@@ -140,7 +140,7 @@ _generate_msg_cpp(spot_msgs
 _generate_msg_cpp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_cpp(spot_msgs
@@ -206,7 +206,7 @@ _generate_msg_cpp(spot_msgs
 _generate_msg_cpp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_cpp(spot_msgs
@@ -218,7 +218,7 @@ _generate_msg_cpp(spot_msgs
 _generate_msg_cpp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_msgs
 )
 
@@ -285,7 +285,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_msgs_generate_messages_cpp)
 _generate_msg_eus(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_eus(spot_msgs
@@ -309,7 +309,7 @@ _generate_msg_eus(spot_msgs
 _generate_msg_eus(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_eus(spot_msgs
@@ -375,7 +375,7 @@ _generate_msg_eus(spot_msgs
 _generate_msg_eus(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_eus(spot_msgs
@@ -387,7 +387,7 @@ _generate_msg_eus(spot_msgs
 _generate_msg_eus(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_msgs
 )
 
@@ -454,7 +454,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_msgs_generate_messages_eus)
 _generate_msg_lisp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_lisp(spot_msgs
@@ -478,7 +478,7 @@ _generate_msg_lisp(spot_msgs
 _generate_msg_lisp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_lisp(spot_msgs
@@ -544,7 +544,7 @@ _generate_msg_lisp(spot_msgs
 _generate_msg_lisp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_lisp(spot_msgs
@@ -556,7 +556,7 @@ _generate_msg_lisp(spot_msgs
 _generate_msg_lisp(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_msgs
 )
 
@@ -623,7 +623,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_msgs_generate_messages_lisp)
 _generate_msg_nodejs(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_nodejs(spot_msgs
@@ -647,7 +647,7 @@ _generate_msg_nodejs(spot_msgs
 _generate_msg_nodejs(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_nodejs(spot_msgs
@@ -713,7 +713,7 @@ _generate_msg_nodejs(spot_msgs
 _generate_msg_nodejs(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_nodejs(spot_msgs
@@ -725,7 +725,7 @@ _generate_msg_nodejs(spot_msgs
 _generate_msg_nodejs(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_msgs
 )
 
@@ -792,7 +792,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_msgs_generate_messages_nodejs)
 _generate_msg_py(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_py(spot_msgs
@@ -816,7 +816,7 @@ _generate_msg_py(spot_msgs
 _generate_msg_py(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_py(spot_msgs
@@ -882,7 +882,7 @@ _generate_msg_py(spot_msgs
 _generate_msg_py(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg"
+  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_msgs
 )
 _generate_msg_py(spot_msgs
@@ -894,7 +894,7 @@ _generate_msg_py(spot_msgs
 _generate_msg_py(spot_msgs
   "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg"
   "${MSG_I_FLAGS}"
-  "/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_msgs
 )
 

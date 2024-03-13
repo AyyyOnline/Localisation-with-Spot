@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ayyyonline/Localisation-with-Spot/catkin_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_LeaseResource.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_LeaseResource:
-	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg spot_msgs/Lease:spot_msgs/LeaseOwner
+	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg spot_msgs/LeaseOwner:spot_msgs/Lease
 
 _spot_msgs_generate_messages_check_deps_LeaseResource: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_LeaseResource
 _spot_msgs_generate_messages_check_deps_LeaseResource: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_LeaseResource.dir/build.make

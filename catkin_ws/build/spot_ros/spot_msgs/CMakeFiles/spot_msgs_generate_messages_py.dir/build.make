@@ -76,8 +76,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/ayyyonline/L
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spot_msgs/BatteryStateArray"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -103,9 +103,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/ayyyonline/L
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseArray.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG spot_msgs/LeaseArray"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -168,8 +168,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/ayyyonline/L
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseResource.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseResource.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseResource.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseResource.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_LeaseResource.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG spot_msgs/LeaseResource"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -181,8 +181,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/ayyyonline/L
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG spot_msgs/SystemFaultState"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 

@@ -75,8 +75,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_nodejs: /home/ayyyonli
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/BatteryStateArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/BatteryStateArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/BatteryStateArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/BatteryStateArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/BatteryStateArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spot_msgs/BatteryStateArray.msg"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg
 
@@ -102,9 +102,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_nodejs: /home/ayyyonli
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseArray.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from spot_msgs/LeaseArray.msg"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseArray.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg
 
@@ -167,8 +167,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_nodejs: /home/ayyyonli
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseResource.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseResource.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseResource.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseResource.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseOwner.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/LeaseResource.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/Lease.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from spot_msgs/LeaseResource.msg"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/LeaseResource.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg
 
@@ -180,8 +180,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_nodejs: /home/ayyyonli
 
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/SystemFaultState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/SystemFaultState.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg
-/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/SystemFaultState.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
 /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/SystemFaultState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg/SystemFaultState.js: /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayyyonline/Localisation-with-Spot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from spot_msgs/SystemFaultState.msg"
 	cd /home/ayyyonline/Localisation-with-Spot/catkin_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg -Ispot_msgs:/home/ayyyonline/Localisation-with-Spot/catkin_ws/src/spot_ros/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p spot_msgs -o /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/share/gennodejs/ros/spot_msgs/msg
 

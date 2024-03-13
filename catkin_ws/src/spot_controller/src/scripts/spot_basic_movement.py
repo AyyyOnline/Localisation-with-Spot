@@ -33,10 +33,10 @@ def move_spot_forward():
     except rospy.ServiceException as e:
         rospy.logerr("Error detected: %s" % e)
 """
-
+# Function aimed to instruct spot to move forwards
 def move_spot_forward():
   # Initialize ROS node
-  rospy.init_node('move_spot_forward')
+  rospy.init_node('spot_basic_movement')
 
   # Define publisher for velocity commands
   vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
