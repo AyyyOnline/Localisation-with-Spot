@@ -129,9 +129,10 @@ alias lsupg='apt list --upgradable'
 alias updg='sudo apt dist-upgrade'
 alias in='sudo apt install'
 alias snapin='snap install'
+alias killsnap='killall snap-store'		# force close snap store when it wont update
 alias mkdir='mkdir -pv'			# create a dir and its child dirs
 alias cm='catkin_make'				# build packages
-alias killsnap='killall snap-store'
+alias srcws='source devel/setup.bash'		# source ros ws to load variables correctly
 
 # Gazebo/Rviz/ROS
 alias rosgaz='roscore & rosrun gazebo_ros gazebo'			# run ros master node and gazebo
@@ -142,10 +143,15 @@ alias rostpecho='rostopic echo'					# show data being published
 alias rosshow='rosmsg show'						# shows the type of data
 alias spotviz='roslaunch spot_config bringup.launch rviz:=true'	# launch spot in rviz from src folder in repo
 alias ctrlspot='roslaunch champ_teleop teleop.launch'		# launch spot controller in terminal
+alias spotpath='roslaunch spot_controller path_following.py'		# launch and feed the py file to spot
+alias spotmove='roslaunch spot_controller spot_movement.py'		# launch and feed the py file to spot
+alias spotpathpy='python3 path_following.py'				# launch and feed the py file to spot within src of controller
+alias spotmovepy='python3 spot_movement.py'				# launch and feed the py file to spot within src of controller
 
 # Git
 alias gitstat='git status'
-alias gitlog='git log --graph --decorate --oneline' 		# this one is just pure terminal beauty
+alias gitlog='git log --graph --decorate --oneline' 			# this one is just pure terminal beauty
+alias gitpat=''
 alias gitssh='cat ~/.ssh/id_ed25519.pub'
 alias gitadd='git add .'						# adds all files ready for commit
 alias gitcom='git commit -m'						# push changes to repo
@@ -154,7 +160,7 @@ alias gitpushall='git push --all -u'					# push all changes to repo
 
 
 # bash shortcuts
-alias ls='ls --color=auto'		# lists info
+alias ls='ls --color=auto'			# lists info
 alias cl='clear && srcbash'			# clears and sources terminal
 alias q='quit'					# quits
 alias gbash='gedit ~/.bashrc'			# edit bash file
@@ -170,15 +176,15 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
-alias ws='cd ~/Localisation-with-Spot/catkin_ws'		# navigate to workspace
-alias wssrc='cd ~/Localisation-with-Spot/catkin_ws/src'	# navigate to workspace src
+alias ws='cd ~/Localisation-with-Spot/catkin_ws'			# navigate to workspace
+alias wssrc='cd ~/Localisation-with-Spot/catkin_ws/src'		# navigate to workspace src
 alias wsscr='cd ~/Localisation-with-Spot/catkin_ws/src/spot_controller/src/scripts'		# navigate to scripts
 
 # Confirmations
-alias mv='mv -i'		# move a file
-alias cp='cp -i'		# copy a file
-alias rm='rm -i'		# remove files and directories 
-alias rf='rm -i -rf'		# forcefully remove files and directories add file name after -rf
+alias mv='mv -i'				# move a file
+alias cp='cp -i'				# copy a file
+alias rm='rm -i'				# remove files and directories 
+alias rf='rm -i -rf'				# forcefully remove files and directories add file name after -rf
 alias autorm='sudo apt autoremove'
 
 # Audio

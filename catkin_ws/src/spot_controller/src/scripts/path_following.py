@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+import numpy as np
 import rospy
+from math import atan2,sqrt
 from geometry_msgs.msg import PoseStamped, Twist
-from math import atan2, sqrt
+from nav_msgs.msg import Odometry   # Import Odometry message from nav_msgs
 
 def path_deviation_correction(current_pose):
   # straight line path with a fixed target point
@@ -47,11 +50,23 @@ def path_follow(current_pose):
   pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
   pub.publish(twist_msg)
 
+def pub_odometry(pose_data):
+  """Publish a PoseStamped message"""
+  pose_msg = PoseStamped()
+  pose_msg.header.stamp = rospy.Time.now()  # Set current timestamp
+  # Fill pose_msg with pose_data (position, orientation)
+  pose_msg.pose = pose_data.pose  # Assuming pose_data has a 'pose' field
+
+  pub = rospy.Publisher('/odom', PoseStamped, queue_size=10)
+  pub.publish(pose_msg)
+
 def main():
   rospy.init_node('path_following')
 
   # Subscribe to Spot's odometry topic or tf
   rospy.Subscriber('/odom', PoseStamped, path_follow)
+  # Create a publisher for PoseStamped messages
+  odom_publisher = rospy.Publisher('/path_odom', PoseStamped, queue_size=10)
 
   # Start the ROS spin loop to keep the node running and listen for data
   rospy.spin()          

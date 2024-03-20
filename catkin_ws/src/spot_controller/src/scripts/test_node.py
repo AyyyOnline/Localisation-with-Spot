@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import math
 import rospy
 
 '''
@@ -20,6 +21,9 @@ if __name__ == '__main__':
     rospy.loginfo("node is active")     # display info msg
     rospy.logwarn("Warning")            # display warning msg
     rospy.logerr("Error detected")      # display error msg
+    num = 16
+    sqr_rt = math.sqrt(num)
+    print(f"sqrrt of {num} is {sqr_rt}")
     rate = rospy.Rate(5)                # setup a rate of speed for an object to loop
     rospy.sleep(0.5)        
 

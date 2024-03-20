@@ -36,7 +36,7 @@ def move_spot_forward():
 # Function aimed to instruct spot to move forwards
 def move_spot_forward():
   # Initialize ROS node
-  rospy.init_node('spot_basic_movement')
+  rospy.init_node('spot_movement')
 
   # Define publisher for velocity commands
   vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
