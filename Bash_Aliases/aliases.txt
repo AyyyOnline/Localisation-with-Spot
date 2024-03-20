@@ -118,13 +118,14 @@ fi
 
 echo "Ayyy Robotics"
 source /opt/ros/noetic/setup.bash
-source ~/Localisation-with-Spot/catkin_ws/devel/setup.bash
+source /home/ayyyonline/Localisation-with-Spot/catkin_ws/devel/setup.bash
 
 ###Aliases###
 # Package manager
 alias up='sudo apt update && sudo apt upgrade'
 alias upd='sudo apt update'
 alias upg='sudo apt upgrade'
+alias lsupg='apt list --upgradable'
 alias updg='sudo apt dist-upgrade'
 alias in='sudo apt install'
 alias snapin='snap install'
@@ -133,18 +134,18 @@ alias cm='catkin_make'				# build packages
 alias killsnap='killall snap-store'
 
 # Gazebo/Rviz/ROS
-alias rosgaz='roscore & rosrun gazebo_ros gazebo'
+alias rosgaz='roscore & rosrun gazebo_ros gazebo'			# run ros master node and gazebo
 alias rosgraph='rqt_graph'						# graph for displaying ros nodes
 alias rostpls='rostopic list'						# show list of nodes running
 alias rostpinfo='rostopic info'					# show publishers and subscribers
 alias rostpecho='rostopic echo'					# show data being published
 alias rosshow='rosmsg show'						# shows the type of data
-alias gazspot='roslaunch spot_config bringup.launch rviz:=true'	# launch spot in gazebo from src
-alias ctrlspot='roslaunch champ_teleop teleop.launch'
+alias spotviz='roslaunch spot_config bringup.launch rviz:=true'	# launch spot in rviz from src folder in repo
+alias ctrlspot='roslaunch champ_teleop teleop.launch'		# launch spot controller in terminal
 
 # Git
-alias gs='git status'
-alias glog='git log --graph --decorate --oneline' 		# this one is just pure terminal beauty
+alias gitstat='git status'
+alias gitlog='git log --graph --decorate --oneline' 		# this one is just pure terminal beauty
 alias gitssh='cat ~/.ssh/id_ed25519.pub'
 alias gitadd='git add .'						# adds all files ready for commit
 alias gitcom='git commit -m'						# push changes to repo
